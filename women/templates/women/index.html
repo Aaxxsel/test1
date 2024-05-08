@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+{% include 'women/includes/nav.html' %}
+
+
+    <h1>{{ titel }}</h1>
+<ul>
+    {% for p in posts %}
+        <li>
+        <h2>{{ p.title }}</h2>
+         <p>{{ p.cobyent }}</p>
+         <p> <a href="{% url "post" p.id %}">Читать пост</a></p>
+
+
+        <li>
+    {% endfor %}
+{% include 'women/includes/nav.html' %}
+
+</ul>
+
+{% endblock %}
