@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="776cb8fc-8366-4f86-8a02-fe33fe5de2eb" name="Changes" comment="BDCOM">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="776cb8fc-8366-4f86-8a02-fe33fe5de2eb" name="Changes" comment="BD_COM2">
+      <change afterPath="$PROJECT_DIR$/women/migrations/0002_women_slug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/women/migrations/0003_alter_women_slug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/women/migrations/0004_alter_women_is_published.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/women/migrations/0005_category_women_cat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/women/templates/women/post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/women/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/women/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sitewomen/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/sitewomen/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/women/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/women/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/women/templates/women/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/women/templates/women/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/women/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/women/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/women/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/women/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +30,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -41,24 +54,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
-    "git-widget-placeholder": "master",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.sitewomen.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR_AND_PREVIEW&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;line&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\PycharmProjects\sitewomen\women\templates\women" />
@@ -120,7 +135,29 @@
       <workItem from="1715000083605" duration="3397000" />
       <workItem from="1715069127949" duration="6940000" />
       <workItem from="1715082786651" duration="5989000" />
-      <workItem from="1715152698728" duration="7307000" />
+      <workItem from="1715152698728" duration="9702000" />
+      <workItem from="1715176902405" duration="11000" />
+      <workItem from="1715244034785" duration="1262000" />
+      <workItem from="1715245313442" duration="1684000" />
+      <workItem from="1715255441408" duration="168000" />
+      <workItem from="1715264287381" duration="6000" />
+      <workItem from="1715327229253" duration="7313000" />
+      <workItem from="1715596043867" duration="5571000" />
+      <workItem from="1715859296234" duration="12000" />
+      <workItem from="1715859361718" duration="109000" />
+      <workItem from="1715859649322" duration="11000" />
+      <workItem from="1715859766350" duration="12000" />
+      <workItem from="1715859842295" duration="9000" />
+      <workItem from="1715860025998" duration="2385000" />
+      <workItem from="1716283000951" duration="1305000" />
+      <workItem from="1716294352302" duration="124000" />
+      <workItem from="1716297571600" duration="39000" />
+      <workItem from="1716298899678" duration="99000" />
+      <workItem from="1716371147821" duration="528000" />
+      <workItem from="1716372235347" duration="1659000" />
+      <workItem from="1716374639510" duration="2000" />
+      <workItem from="1716978920663" duration="42000" />
+      <workItem from="1716987122516" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="BDCOM">
       <option name="closed" value="true" />
@@ -130,15 +167,47 @@
       <option name="project" value="LOCAL" />
       <updated>1715156375881</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="BD_COM2">
+      <option name="closed" value="true" />
+      <created>1715162990142</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715162990142</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="line" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="BDCOM" />
-    <option name="LAST_COMMIT_MESSAGE" value="BDCOM" />
+    <MESSAGE value="BD_COM2" />
+    <option name="LAST_COMMIT_MESSAGE" value="BD_COM2" />
   </component>
 </project>
